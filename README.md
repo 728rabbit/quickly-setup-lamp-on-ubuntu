@@ -77,7 +77,7 @@ Ubuntu 22.04 預設 PHP 8.1，你可以裝：
 
 ## 6️⃣（可選）安裝常用 PHP 擴展
 
-`sudo apt install php-cli php-curl php-xml php-mbstring php-zip unzip -y` 
+`sudo apt install php-cli php-curl php-xml php-gd php-mbstring php-zip unzip -y` 
 
 ----------
 
