@@ -1,12 +1,12 @@
 ## 1️⃣ 編輯 Apache 設定檔
 
-假設你網站在 `/var/www/cpo-website`，編輯 Apache 的預設設定：
+假設你網站在 `/var/www/html`，編輯 Apache 的預設設定：
 
 `sudo nano /etc/apache2/sites-available/000-default.conf` 
 
 找到 `<Directory /var/www/>` 或新增一段：
 
-`<Directory /var/www/cpo-website>
+`<Directory /var/www/html>
     Options Indexes FollowSymLinks
     AllowOverride All
     Require all granted
@@ -30,7 +30,7 @@
 
 ## 4️⃣ 測試 .htaccess
 
-在 `/var/www/cpo-website/` 建立一個簡單 `.htaccess`：
+在 `/var/www/html/` 建立一個簡單 `.htaccess`：
 
 `# 禁止所有訪問 test.txt
 <Files "test.txt">
