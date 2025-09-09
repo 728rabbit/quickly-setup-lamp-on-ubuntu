@@ -1,5 +1,5 @@
 
-在 Ubuntu 上部署 **LAMP（Linux + Apache + MySQL + PHP）** 時，增強安全性非常重要。下面我幫你整理成 **操作性強、適合初學者到中級使用者**的步驟：
+在 Ubuntu 上部署 **LAMP（Linux + Apache + MySQL + PHP）** 時，增強安全性非常重要。
 
 ----------
 
