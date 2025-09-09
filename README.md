@@ -82,3 +82,7 @@ Ubuntu 22.04 預設 PHP 8.1，你可以裝：
 ----------
 
 ✅ 到這裡你就有一個完整的 **Apache + PHP + MySQL** 環境。
+
+----------
+
+✅ 重啟 Apache + MySQL: sudo systemctl restart apache2 mysql
